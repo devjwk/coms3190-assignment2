@@ -44,15 +44,15 @@ export default function EnrollmentForm() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex items-center justify-center py-10">
+    <div className="min-h-screen bg-gray-950 text-white flex items-center justify-center py-10 px-4">
       <div className="bg-gray-900 p-8 rounded-2xl shadow-lg w-full max-w-2xl">
         <h1 className="text-3xl font-bold mb-6 text-center">
           Enrollment Form 📝
         </h1>
 
-        {/* Render selected course datils */}
+        {/* Render selected course details */}
         {course && (
-          <div className="bg-indigo-900/20 p-4 rounded-lg mb-6">
+          <div className="bg-indigo-900/20 p-4 rounded-lg mb-6 border border-indigo-800">
             <h2 className="text-lg font-semibold mb-1">Selected Course:</h2>
             <p className="text-gray-300">{course.title}</p>
           </div>
@@ -73,7 +73,8 @@ export default function EnrollmentForm() {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleChange}
-                  className="w-full p-2 rounded-md text-gray-900"
+                  className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors"
+                  placeholder="Enter your full name"
                 />
                 {errors.fullName && (
                   <p className="text-red-400 text-sm mt-1">{errors.fullName}</p>
@@ -87,7 +88,8 @@ export default function EnrollmentForm() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full p-2 rounded-md text-gray-900"
+                  className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors"
+                  placeholder="Enter your email"
                 />
                 {errors.email && (
                   <p className="text-red-400 text-sm mt-1">{errors.email}</p>
@@ -110,7 +112,7 @@ export default function EnrollmentForm() {
                   name="startDate"
                   value={formData.startDate}
                   onChange={handleChange}
-                  className="w-full p-2 rounded-md text-gray-900"
+                  className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors"
                 />
                 {errors.startDate && (
                   <p className="text-red-400 text-sm mt-1">{errors.startDate}</p>
@@ -123,7 +125,7 @@ export default function EnrollmentForm() {
                   name="mode"
                   value={formData.mode}
                   onChange={handleChange}
-                  className="w-full p-2 rounded-md text-gray-900"
+                  className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors"
                 >
                   <option value="Online">Online</option>
                   <option value="In-person">In-person</option>
@@ -137,7 +139,8 @@ export default function EnrollmentForm() {
                   value={formData.comment}
                   onChange={handleChange}
                   rows="3"
-                  className="w-full p-2 rounded-md text-gray-900"
+                  className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors resize-none placeholder-gray-400"
+                  placeholder="Optional: Add any comments or questions"
                 ></textarea>
               </div>
             </div>
@@ -146,7 +149,7 @@ export default function EnrollmentForm() {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+            className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
           >
             Submit Enrollment
           </button>

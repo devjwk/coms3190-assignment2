@@ -8,10 +8,7 @@ import PaymentConfirmation from "./components/PaymentConfirmation";
 function App() {
   return (
     <Router>
-      {/* ✅ Navbar은 모든 페이지 위에 항상 표시 */}
       <Navbar />
-
-      {/* 아래는 페이지 전환 영역 */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/course-details" element={<CourseDetails />} />
