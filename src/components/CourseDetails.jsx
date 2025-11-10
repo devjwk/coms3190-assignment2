@@ -1,4 +1,3 @@
-// CourseDetails.jsx
 import { useLocation, useNavigate } from "react-router-dom";
 
 export default function CourseDetails() {
@@ -10,7 +9,15 @@ export default function CourseDetails() {
   if (!course) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white">
-        <p className="text-lg">No course data found 😢</p>
+        <div className="text-center">
+          <p className="text-lg mb-4">No course data found 😢</p>
+          <button
+            onClick={() => navigate("/")}
+            className="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-2 px-6 rounded-lg transition-colors"
+          >
+            Return to Home
+          </button>
+        </div>
       </div>
     );
   }
@@ -20,24 +27,61 @@ export default function CourseDetails() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center p-10">
-      <div className="bg-gray-900 p-8 rounded-2xl shadow-lg max-w-3xl w-full">
-        <img
-          src={course.thumbnail}
-          alt={course.title}
-          className="w-full h-64 object-cover rounded-lg mb-6"
-        />
-        <h1 className="text-3xl font-bold mb-3">{course.title}</h1>
-        <p className="text-gray-400 mb-2">Instructor: {course.instructor}</p>
-        <p className="text-gray-300 mb-4">{course.description}</p>
-        <p className="text-indigo-400 font-semibold mb-6">${course.price}</p>
-
+    <div className="min-h-screen bg-gray-950 text-white py-10 px-6">
+      <div className="max-w-5xl mx-auto">
+        {/* Back button */}
         <button
-          onClick={handleEnroll}
-          className="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-2 px-6 rounded-lg transition-colors"
+          onClick={() => navigate("/")}
+          className="mb-6 text-gray-400 hover:text-white transition-colors flex items-center gap-2"
         >
-          Enroll Now
+          ← Back to Courses
         </button>
+
+        <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
+          {/* Video Trailer Section */}
+          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+            <iframe
+              src={course.videoUrl}
+              title={course.title}
+              className="absolute top-0 left-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          {/* Course Information */}
+          <div className="p-8">
+            <h1 className="text-4xl font-bold mb-4">{course.title}</h1>
+            
+            <div className="flex flex-wrap gap-6 mb-6 text-gray-400">
+              <div className="flex items-center gap-2">
+                <span className="text-indigo-400">👨‍🏫</span>
+                <span>{course.instructor}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-indigo-400">⏱️</span>
+                <span>{course.duration}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-indigo-400 text-2xl font-bold">
+                  ${course.price}
+                </span>
+              </div>
+            </div>
+
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold mb-3">About This Course</h2>
+              <p className="text-gray-300 leading-relaxed">{course.description}</p>
+            </div>
+
+            <button
+              onClick={handleEnroll}
+              className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-lg"
+            >
+              Enroll Now
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

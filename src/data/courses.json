@@ -3,25 +3,40 @@
     "category": "Software Development",
     "courses": [
       {
+        "id": "sd-001",
         "title": "Full-Stack Web Development Bootcamp",
         "instructor": "Alice Kim",
-        "description": "Learn HTML, CSS, JavaScript, React, and Node.js from scratch.",
+        "description": "Learn HTML, CSS, JavaScript, React, and Node.js from scratch. This comprehensive bootcamp takes you from beginner to job-ready full-stack developer with hands-on projects and real-world applications.",
+        "shortDescription": "Learn HTML, CSS, JavaScript, React, and Node.js from scratch.",
+        "duration": "12 weeks",
         "price": "49.99",
-        "image": "/images/full-stack-web-development.jpg"
+        "thumbnail": "/images/full-stack-web-development.jpg",
+        "image": "/images/full-stack-web-development.jpg",
+        "videoUrl": "https://www.youtube.com/embed/nu_pCVPKzTk"
       },
       {
+        "id": "sd-002",
         "title": "Advanced React Patterns",
         "instructor": "David Park",
-        "description": "Dive deep into React hooks, context, and performance optimization.",
+        "description": "Dive deep into React hooks, context, and performance optimization. Master advanced patterns like compound components, render props, and custom hooks to build scalable applications.",
+        "shortDescription": "Dive deep into React hooks, context, and performance optimization.",
+        "duration": "6 weeks",
         "price": "39.99",
-        "image": "/images/advanced-react.jpg"
+        "thumbnail": "/images/advanced-react.jpg",
+        "image": "/images/advanced-react.jpg",
+        "videoUrl": "https://www.youtube.com/embed/3XaXKiXtNjw"
       },
       {
+        "id": "sd-003",
         "title": "Building RESTful APIs with Express",
         "instructor": "Jinwoo Lee",
-        "description": "Master API design using Node.js, Express, and MongoDB.",
+        "description": "Master API design using Node.js, Express, and MongoDB. Learn authentication, validation, error handling, and deployment best practices for production-ready APIs.",
+        "shortDescription": "Master API design using Node.js, Express, and MongoDB.",
+        "duration": "8 weeks",
         "price": "34.99",
-        "image": "https://source.unsplash.com/400x300/?api,nodejs"
+        "thumbnail": "https://source.unsplash.com/400x300/?api,nodejs",
+        "image": "https://source.unsplash.com/400x300/?api,nodejs",
+        "videoUrl": "https://www.youtube.com/embed/pKd0Rpw7O48"
       }
     ]
   },
@@ -29,25 +44,40 @@
     "category": "AI & ML",
     "courses": [
       {
+        "id": "ai-001",
         "title": "Introduction to Machine Learning",
         "instructor": "Sujin Choi",
-        "description": "Get started with supervised and unsupervised learning techniques.",
+        "description": "Get started with supervised and unsupervised learning techniques. Explore algorithms like linear regression, decision trees, k-means clustering, and neural networks with Python and scikit-learn.",
+        "shortDescription": "Get started with supervised and unsupervised learning techniques.",
+        "duration": "10 weeks",
         "price": "59.99",
-        "image": "https://source.unsplash.com/400x300/?machinelearning"
+        "thumbnail": "https://source.unsplash.com/400x300/?machinelearning",
+        "image": "https://source.unsplash.com/400x300/?machinelearning",
+        "videoUrl": "https://www.youtube.com/embed/ukzFI9rgwfU"
       },
       {
+        "id": "ai-002",
         "title": "Deep Learning with TensorFlow",
         "instructor": "Eric Kim",
-        "description": "Train deep neural networks using TensorFlow and Keras.",
+        "description": "Train deep neural networks using TensorFlow and Keras. Build convolutional neural networks for image recognition and recurrent networks for sequence prediction tasks.",
+        "shortDescription": "Train deep neural networks using TensorFlow and Keras.",
+        "duration": "14 weeks",
         "price": "69.99",
-        "image": "https://source.unsplash.com/400x300/?deep,learning"
+        "thumbnail": "https://source.unsplash.com/400x300/?deep,learning",
+        "image": "https://source.unsplash.com/400x300/?deep,learning",
+        "videoUrl": "https://www.youtube.com/embed/tPYj3fFJGjk"
       },
       {
+        "id": "ai-003",
         "title": "Natural Language Processing (NLP) Fundamentals",
         "instructor": "Minji Lee",
-        "description": "Learn the basics of text data, tokenization, and model building.",
+        "description": "Learn the basics of text data, tokenization, and model building. Work with word embeddings, sentiment analysis, named entity recognition, and transformer models.",
+        "shortDescription": "Learn the basics of text data, tokenization, and model building.",
+        "duration": "9 weeks",
         "price": "44.99",
-        "image": "https://source.unsplash.com/400x300/?nlp,ai"
+        "thumbnail": "https://source.unsplash.com/400x300/?nlp,ai",
+        "image": "https://source.unsplash.com/400x300/?nlp,ai",
+        "videoUrl": "https://www.youtube.com/embed/fNxaJsNG3-s"
       }
     ]
   },
@@ -55,25 +85,40 @@
     "category": "Theory of Computation",
     "courses": [
       {
+        "id": "tc-001",
         "title": "Computation Models and Turing Machines",
         "instructor": "Daniel Park",
-        "description": "Understand computation models including finite automata and Turing machines.",
+        "description": "Understand computation models including finite automata and Turing machines. Explore the theoretical foundations of computer science and what makes problems computable.",
+        "shortDescription": "Understand computation models including finite automata and Turing machines.",
+        "duration": "10 weeks",
         "price": "54.99",
-        "image": "https://source.unsplash.com/400x300/?computer,science"
+        "thumbnail": "https://source.unsplash.com/400x300/?computer,science",
+        "image": "https://source.unsplash.com/400x300/?computer,science",
+        "videoUrl": "https://www.youtube.com/embed/dNRDvLACg5Q"
       },
       {
+        "id": "tc-002",
         "title": "Complexity Theory Essentials",
         "instructor": "Grace Han",
-        "description": "Learn P, NP, NP-Complete, and NP-Hard concepts with examples.",
+        "description": "Learn P, NP, NP-Complete, and NP-Hard concepts with examples. Understand computational complexity, reduction techniques, and the famous P vs NP problem.",
+        "shortDescription": "Learn P, NP, NP-Complete, and NP-Hard concepts with examples.",
+        "duration": "8 weeks",
         "price": "49.99",
-        "image": "https://source.unsplash.com/400x300/?theory,mathematics"
+        "thumbnail": "https://source.unsplash.com/400x300/?theory,mathematics",
+        "image": "https://source.unsplash.com/400x300/?theory,mathematics",
+        "videoUrl": "https://www.youtube.com/embed/YX40hbAHx3s"
       },
       {
+        "id": "tc-003",
         "title": "Formal Languages and Automata",
         "instructor": "Hana Lim",
-        "description": "Dive into grammars, languages, and pushdown automata.",
+        "description": "Dive into grammars, languages, and pushdown automata. Study regular expressions, context-free grammars, and the Chomsky hierarchy of formal languages.",
+        "shortDescription": "Dive into grammars, languages, and pushdown automata.",
+        "duration": "11 weeks",
         "price": "42.99",
-        "image": "https://source.unsplash.com/400x300/?automata,logic"
+        "thumbnail": "https://source.unsplash.com/400x300/?automata,logic",
+        "image": "https://source.unsplash.com/400x300/?automata,logic",
+        "videoUrl": "https://www.youtube.com/embed/eqCkkC9A0Q4"
       }
     ]
   }
