@@ -10,8 +10,8 @@
         "shortDescription": "Learn HTML, CSS, JavaScript, React, and Node.js from scratch.",
         "duration": "12 weeks",
         "price": "49.99",
-        "thumbnail": "/images/full-stack-web-development.jpg",
-        "image": "/images/full-stack-web-development.jpg",
+        "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/nu_pCVPKzTk"
       },
       {
@@ -22,8 +22,8 @@
         "shortDescription": "Dive deep into React hooks, context, and performance optimization.",
         "duration": "6 weeks",
         "price": "39.99",
-        "thumbnail": "/images/advanced-react.jpg",
-        "image": "/images/advanced-react.jpg",
+        "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/3XaXKiXtNjw"
       },
       {
@@ -34,8 +34,8 @@
         "shortDescription": "Master API design using Node.js, Express, and MongoDB.",
         "duration": "8 weeks",
         "price": "34.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?api,nodejs",
-        "image": "https://source.unsplash.com/400x300/?api,nodejs",
+        "thumbnail": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/pKd0Rpw7O48"
       }
     ]
@@ -51,8 +51,8 @@
         "shortDescription": "Get started with supervised and unsupervised learning techniques.",
         "duration": "10 weeks",
         "price": "59.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?machinelearning",
-        "image": "https://source.unsplash.com/400x300/?machinelearning",
+        "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/ukzFI9rgwfU"
       },
       {
@@ -63,8 +63,8 @@
         "shortDescription": "Train deep neural networks using TensorFlow and Keras.",
         "duration": "14 weeks",
         "price": "69.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?deep,learning",
-        "image": "https://source.unsplash.com/400x300/?deep,learning",
+        "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/tPYj3fFJGjk"
       },
       {
@@ -75,8 +75,8 @@
         "shortDescription": "Learn the basics of text data, tokenization, and model building.",
         "duration": "9 weeks",
         "price": "44.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?nlp,ai",
-        "image": "https://source.unsplash.com/400x300/?nlp,ai",
+        "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/fNxaJsNG3-s"
       }
     ]
@@ -92,8 +92,8 @@
         "shortDescription": "Understand computation models including finite automata and Turing machines.",
         "duration": "10 weeks",
         "price": "54.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?computer,science",
-        "image": "https://source.unsplash.com/400x300/?computer,science",
+        "thumbnail": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/dNRDvLACg5Q"
       },
       {
@@ -104,8 +104,8 @@
         "shortDescription": "Learn P, NP, NP-Complete, and NP-Hard concepts with examples.",
         "duration": "8 weeks",
         "price": "49.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?theory,mathematics",
-        "image": "https://source.unsplash.com/400x300/?theory,mathematics",
+        "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/YX40hbAHx3s"
       },
       {
@@ -116,8 +116,8 @@
         "shortDescription": "Dive into grammars, languages, and pushdown automata.",
         "duration": "11 weeks",
         "price": "42.99",
-        "thumbnail": "https://source.unsplash.com/400x300/?automata,logic",
-        "image": "https://source.unsplash.com/400x300/?automata,logic",
+        "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=400&h=300&fit=crop",
+        "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&h=600&fit=crop",
         "videoUrl": "https://www.youtube.com/embed/eqCkkC9A0Q4"
       }
     ]
