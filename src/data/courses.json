@@ -1,0 +1,80 @@
+[
+  {
+    "category": "Software Development",
+    "courses": [
+      {
+        "title": "Full-Stack Web Development Bootcamp",
+        "instructor": "Alice Kim",
+        "description": "Learn HTML, CSS, JavaScript, React, and Node.js from scratch.",
+        "price": "49.99",
+        "image": "/images/full-stack-web-development.jpg"
+      },
+      {
+        "title": "Advanced React Patterns",
+        "instructor": "David Park",
+        "description": "Dive deep into React hooks, context, and performance optimization.",
+        "price": "39.99",
+        "image": "/images/advanced-react.jpg"
+      },
+      {
+        "title": "Building RESTful APIs with Express",
+        "instructor": "Jinwoo Lee",
+        "description": "Master API design using Node.js, Express, and MongoDB.",
+        "price": "34.99",
+        "image": "https://source.unsplash.com/400x300/?api,nodejs"
+      }
+    ]
+  },
+  {
+    "category": "AI & ML",
+    "courses": [
+      {
+        "title": "Introduction to Machine Learning",
+        "instructor": "Sujin Choi",
+        "description": "Get started with supervised and unsupervised learning techniques.",
+        "price": "59.99",
+        "image": "https://source.unsplash.com/400x300/?machinelearning"
+      },
+      {
+        "title": "Deep Learning with TensorFlow",
+        "instructor": "Eric Kim",
+        "description": "Train deep neural networks using TensorFlow and Keras.",
+        "price": "69.99",
+        "image": "https://source.unsplash.com/400x300/?deep,learning"
+      },
+      {
+        "title": "Natural Language Processing (NLP) Fundamentals",
+        "instructor": "Minji Lee",
+        "description": "Learn the basics of text data, tokenization, and model building.",
+        "price": "44.99",
+        "image": "https://source.unsplash.com/400x300/?nlp,ai"
+      }
+    ]
+  },
+  {
+    "category": "Theory of Computation",
+    "courses": [
+      {
+        "title": "Computation Models and Turing Machines",
+        "instructor": "Daniel Park",
+        "description": "Understand computation models including finite automata and Turing machines.",
+        "price": "54.99",
+        "image": "https://source.unsplash.com/400x300/?computer,science"
+      },
+      {
+        "title": "Complexity Theory Essentials",
+        "instructor": "Grace Han",
+        "description": "Learn P, NP, NP-Complete, and NP-Hard concepts with examples.",
+        "price": "49.99",
+        "image": "https://source.unsplash.com/400x300/?theory,mathematics"
+      },
+      {
+        "title": "Formal Languages and Automata",
+        "instructor": "Hana Lim",
+        "description": "Dive into grammars, languages, and pushdown automata.",
+        "price": "42.99",
+        "image": "https://source.unsplash.com/400x300/?automata,logic"
+      }
+    ]
+  }
+]
