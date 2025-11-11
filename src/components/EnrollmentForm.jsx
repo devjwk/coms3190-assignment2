@@ -12,6 +12,7 @@ export default function EnrollmentForm() {
     startDate: "",
     mode: "Online",
     comment: "",
+    cardNumber: "", // added credit card field
   });
 
   const [errors, setErrors] = useState({});
@@ -142,6 +143,28 @@ export default function EnrollmentForm() {
                   className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors resize-none placeholder-gray-400"
                   placeholder="Optional: Add any comments or questions"
                 ></textarea>
+              </div>
+            </div>
+          </div>
+
+          {/* Mock Credit Card Section */}
+          <div>
+            <h2 className="text-xl font-semibold mb-4 border-b border-gray-700 pb-2">
+              Payment Information (Mock)
+            </h2>
+
+            <div className="space-y-4">
+              <div>
+                <label className="block mb-1 font-medium">Credit Card Number</label>
+                <input
+                  type="text"
+                  name="cardNumber"
+                  value={formData.cardNumber}
+                  onChange={handleChange}
+                  maxLength="16"
+                  className="w-full p-3 rounded-md bg-gray-800 text-white border border-gray-700 focus:border-indigo-500 focus:bg-white focus:text-gray-900 focus:outline-none transition-colors"
+                  placeholder="Enter mock credit card number"
+                />
               </div>
             </div>
           </div>
