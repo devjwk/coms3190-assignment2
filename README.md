@@ -1,4 +1,27 @@
-# SkillFlix
+<div align="center">
+
+# SKILLFLIX
+
+### Browse and enroll in courses, Netflix-style
+
+**React · React Router · Tailwind CSS**
+
+![UI](https://img.shields.io/badge/UI-React-6366F1?style=flat-square)
+![Style](https://img.shields.io/badge/Style-Tailwind%20CSS-0F172A?style=flat-square)
+![Routing](https://img.shields.io/badge/Routing-React%20Router-0891B2?style=flat-square)
+![Team](https://img.shields.io/badge/Team-2%20people-F59E0B?style=flat-square)
+
+Iowa State University · COM S 3190 · Assignment 2 · Fall 2025
+
+[Project Overview](#project-overview) · [User flow](#user-flow) · [Purpose](#purpose) · [Roles](#team-members--roles) · [Limitations](#limitations-and-next-steps)
+
+</div>
+
+---
+
+> **Where it stands — Complete**  
+> A single-page course platform with four views, driven by JSON data.  
+> There is no backend: enrollments are not saved and payment is simulated.
 
 | | |
 |---|---|
@@ -6,6 +29,19 @@
 | Team | 2 — Jongwoo Kim, David Lawlor (team NM_15) |
 | My role | Home (browse courses) and enrollment form views |
 | Stack | React, React Router, Tailwind CSS, JSON data |
+
+## User flow
+
+```mermaid
+flowchart LR
+    H["Home · browse courses"] --> C["Course details"] --> E["Enrollment form"] --> P["Payment and confirmation"]
+    J[("courses.json")] -.-> H
+    J -.-> C
+    style H fill:#6366F1,color:#ffffff,stroke:#4338CA
+    style E fill:#6366F1,color:#ffffff,stroke:#4338CA
+```
+
+Highlighted views are the ones I built.
 
 ## Project Overview
 
