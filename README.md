@@ -1,5 +1,12 @@
 # SkillFlix
 
+| | |
+|---|---|
+| Period | October – November 2025 (COM S 3190, Assignment 2) |
+| Team | 2 — Jongwoo Kim, David Lawlor (team NM_15) |
+| My role | Home (browse courses) and enrollment form views |
+| Stack | React, React Router, Tailwind CSS, JSON data |
+
 ## Project Overview
 
 Skillflix is a dynamic website capable of taking courses from a JSON file and then displaying them in a style simmilar to netflix. Sorted by categorys with a scrollable view. Each course as an information page with relavent details as well as a video related to the topic. Than a user can enroll for the course and input their information. This website also works with different devices like mobile.
@@ -91,3 +98,28 @@ Key design decisions include:
 ## Notes
 
 -Install all dependencies
+
+## What I learned
+
+**Technical**
+- Breaking a page into reusable React components and passing data down as props.
+- `useState` and `useEffect` for loading JSON and holding form state.
+- Form validation that reports errors per field before submission.
+- Responsive layout with Tailwind utility classes.
+
+**Teamwork**
+- Agreeing on the JSON structure and navigation flow first, so two people could build separate views that fit together.
+- Short SCRUM-style check-ins and GitLab merge requests.
+
+## Resources used
+
+- React, React Router and Tailwind CSS documentation
+- Tailwind UI templates as a starting point for the enrollment form
+- Course lecture material
+
+## Limitations and next steps
+
+- Courses come from a static JSON file. There is no backend, so enrollments are not saved.
+- Payment is simulated.
+- There are no automated tests.
+- A natural next step is an API and database behind it, which Assignment 3 ([SkyValor](https://github.com/devjwk/coms3190-assignment3)) practices.
