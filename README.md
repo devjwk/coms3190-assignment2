@@ -1,15 +1,11 @@
 <div align="center">
 
-# SKILLFLIX
+<img src="assets/banner.svg" alt="SKILLFLIX — Browse and enroll in courses, Netflix-style" width="100%">
 
-### Browse and enroll in courses, Netflix-style
-
-**React · React Router · Tailwind CSS**
-
-![UI](https://img.shields.io/badge/UI-React-6366F1?style=flat-square)
-![Style](https://img.shields.io/badge/Style-Tailwind%20CSS-0F172A?style=flat-square)
-![Routing](https://img.shields.io/badge/Routing-React%20Router-0891B2?style=flat-square)
-![Team](https://img.shields.io/badge/Team-2%20people-F59E0B?style=flat-square)
+![UI](https://img.shields.io/badge/UI-React-E50914?style=flat-square&labelColor=000000)
+![Style](https://img.shields.io/badge/Style-Tailwind%20CSS-141414?style=flat-square&labelColor=000000)
+![Routing](https://img.shields.io/badge/Routing-React%20Router-B91C1C?style=flat-square&labelColor=000000)
+![Team](https://img.shields.io/badge/Team-2%20people-404040?style=flat-square&labelColor=000000)
 
 Iowa State University · COM S 3190 · Assignment 2 · Fall 2025
 
@@ -33,12 +29,13 @@ Iowa State University · COM S 3190 · Assignment 2 · Fall 2025
 ## User flow
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {"primaryColor": "#E50914", "primaryTextColor": "#ffffff", "primaryBorderColor": "#000000", "lineColor": "#94A3B8", "secondaryColor": "#450A0A", "tertiaryColor": "#000000", "clusterBkg": "#F8FAFC", "clusterBorder": "#94A3B8", "edgeLabelBackground": "#F1F5F9", "fontFamily": "ui-sans-serif, system-ui, sans-serif"}}}%%
 flowchart LR
     H["Home · browse courses"] --> C["Course details"] --> E["Enrollment form"] --> P["Payment and confirmation"]
     J[("courses.json")] -.-> H
     J -.-> C
-    style H fill:#6366F1,color:#ffffff,stroke:#4338CA
-    style E fill:#6366F1,color:#ffffff,stroke:#4338CA
+    style H fill:#E50914,color:#ffffff,stroke:#000000
+    style E fill:#E50914,color:#ffffff,stroke:#000000
 ```
 
 Highlighted views are the ones I built.
